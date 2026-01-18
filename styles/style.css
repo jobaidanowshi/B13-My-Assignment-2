@@ -19,6 +19,8 @@ html{
 /* navbar styles */
 
 nav{
+    max-width: 1600px;
+    margin: 0 auto;
    background-color: #1A0B2E; 
 }
 .nav-container{
@@ -60,16 +62,138 @@ nav{
     cursor: pointer;
     
 }
-nav .btn:hover{
+ .btn:hover{
     background: linear-gradient(45deg, rgba(145, 0, 248, 1),rgba(247, 233, 63, 1), rgba(251, 9, 180, 1) );
-    transition: 3s;
+    transition: 5s;
 }
 .btn i{
     margin-left: 5px;
 }
+/* Banner Section Styles */
+.banner-section{
+    max-width: 1600px;
+    
+    margin:0 auto;
+    background-image: url(../assets/hero-bg.png);
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    /* border: 2px solid white; */
+    padding: 101px 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img{
+    /* border: 1px solid white; */
+    position: relative;
+    display: inline-block;
+    padding: 0 100px 40px 100px;
+    /* margin-bottom: 50px; */
+   
+}
+.outer-image{
+    /* border: 1px solid red; */
+    display: block;
+   width: 325px;
+   height: 325px;
+   /* width: 80%; */
+   border-radius: 50%;
+   box-shadow: 0 3px 27px 0 #00ff8881;
+}
+.inner-image{
+    position: absolute;
+    top: 69px;
+    left: 210px;
+    /* right: 100px; */
+    width: 20%;
+}
+.tool{
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    border: none;
+    box-shadow: 0 3px 27px 0 #00ff8881;
+    margin-left: 230px;
+    /* margin-bottom: -20px; */
+    
+    /* margin-bottom: -100px; */
+    position: absolute;
+
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 0; */
+    width: 50%;
+    /* border: 1px solid white; */
+
+}
+.banner-content h1{
+    font-size: 5.8rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.banner-content p{
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.banner-button{
+    display: flex;
+    gap: 8px;
+}
+.btn1{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 8px 20px;
+}
+.btn2{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 8px 20px;
+    color: #00FF88;
+    background-color: transparent;
+     border: 1px solid #00FF88;
+    border-radius: 10000px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #00ff8850;
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
     .nav-container{
         padding: 24px ;
+        width: 100%;
+        margin: 0 auto;
+        background-attachment: scroll;
 
     }
     .nav-container>.btn,.menu{
@@ -78,4 +202,9 @@ nav .btn:hover{
     .hamburger-menu{
         display: inline;
     }
+    .banner-section{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 }
