@@ -189,11 +189,16 @@ nav{
 
 
 @media screen and (max-width:576px){
-    .nav-container{
-        padding: 24px ;
+    html,body{
         width: 100%;
-        margin: 0 auto;
-        background-attachment: scroll;
+        overflow-x: hidden;
+        
+    }
+    .nav-container{
+        padding: 24px;
+        width: 100%;
+        /* margin: 0 auto; */
+        /* background-size: contain; */
 
     }
     .nav-container>.btn,.menu{
@@ -203,8 +208,9 @@ nav{
         display: inline;
     }
     .banner-section{
+       
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
     
 }
