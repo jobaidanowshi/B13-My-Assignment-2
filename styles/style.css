@@ -146,7 +146,7 @@ nav{
     margin-bottom: 8px;
 }
 .banner-content p{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #FFFFFF;
     font-weight: 100;
     text-align: center;
@@ -177,6 +177,142 @@ nav{
     background-color: #00ff8850;
     transition: 2s;
 }
+/* About Section Styles */
+.about-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    background-color: #1A0B2E ;
+}
+.about-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 120px;
+
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-content h2{
+    font-size: 4.6rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    text-align: center;
+
+}
+.about-content p{
+    text-align: center;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+hr{
+    margin-bottom: 80px;
+    /* color: #00FF88; */
+    
+    }
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    /* margin-bottom: 120px; */
+}
+.card{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.card h1{
+    color: #00FF88;
+    font-size: 3.6rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.card p{
+ color: #FFFFFF;
+ font-size: 1.3rem;
+ font-weight: 100;
+
+}
+/* Why Choose Techwave Styles */
+.choose-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #230E3D;
+    /* border: 3px solid green; */
+}
+.choose-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.choose-content h1{
+    font-size: 4.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+    border: none;
+    /* border: 1px solid green; */
+} 
+.box{
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+}
+.box img{
+    max-width: 35px;
+    margin-bottom: 16px;
+}
+.box h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.box p{
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+.box1{
+    grid-row: span 2;
+    padding: 150px 30px;
+}
+.box2{
+    grid-column: span 2;
+}
+.box3{
+    grid-column: span 2;
+}
+.box4{
+    grid-column: span 2;
+}
+
+
+ 
 
 
 
@@ -212,5 +348,47 @@ nav{
         width: 100%;
         /* margin: 0 auto; */
     }
+    .banner-section{
+    /* width: 100%; */
+    
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* .about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    }
+    .about-content p{
+        line-height: auto;
+    }
+    .about-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    /* margin-bottom: 120px; */
+}
+.choose-content h1{
+   padding-left: 2px;
+   padding-right: 2px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+}
+.choose-card {
+    /* display: grid; */
+    grid-template-columns: 1fr;
+}
+.box1{
+    padding: 0px;
+}
+.box{
+    padding: 40px;
+}
+
+
+
     
 }
