@@ -10,6 +10,9 @@
 html{
     font-size: 10px;
 }
+body{
+    overflow-x: hidden;
+}
 
 .font-inter{
   font-family: "Inter", sans-serif;
@@ -19,8 +22,8 @@ html{
 /* navbar styles */
 
 nav{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
    background-color: #1A0B2E; 
 }
 .nav-container{
@@ -45,7 +48,7 @@ nav{
     text-decoration: none;
     color: #FFFFFF;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
 }
 .hamburger-menu{
@@ -53,7 +56,7 @@ nav{
 }
 .btn{
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 12.5px 16px;
     background: linear-gradient(90deg,rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)); 
@@ -71,11 +74,13 @@ nav{
 }
 /* Banner Section Styles */
 .banner-section{
-    max-width: 1600px;
+    /* max-width: 1600px;
     
-    margin:0 auto;
+    margin:0 auto; */
+    min-height: 100vh;
     background-image: url(../assets/hero-bg.png);
-   
+    /* display: flex;
+    align-items: center; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +105,7 @@ nav{
 .outer-image{
     /* border: 1px solid red; */
     display: block;
-   width: 325px;
+   max-width: 350px;
    height: 325px;
    /* width: 80%; */
    border-radius: 50%;
@@ -190,8 +195,8 @@ nav{
 }
 /* About Section Styles */
 .about-section{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
     /* border: 1px solid green; */
     background-color: #1A0B2E ;
 }
@@ -257,8 +262,8 @@ hr{
 }
 /* Why Choose Techwave Styles */
 .choose-section{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
     background-color: #230E3D;
     /* border: 3px solid green; */
 }
@@ -323,8 +328,8 @@ hr{
 }
 /* Featured Episodes styles */
 .featured-section{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
     background-color: #1A0B2E;
     /* border: 1px solid red; */
 }
@@ -400,8 +405,8 @@ span{
 }
 /* Meet The Host Section Styles */
 .host-section{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
     background-color: #1A0B2E;
 }
 .host-container{
@@ -462,8 +467,8 @@ span{
 }
 /* Footer Styles */
 .footer-section{
-    max-width: 1600px;
-    margin: 0 auto;
+    /* max-width: 1600px;
+    margin: 0 auto; */
     background-image: url(../assets/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -507,7 +512,9 @@ span{
 
 
 
-
+.hide{
+    display: none; 
+}
 
 
 
@@ -522,7 +529,7 @@ span{
         
     }
     .nav-container{
-        padding: 24px;
+        padding: 20px;
         width: 100%;
         /* margin: 0 auto; */
         /* background-size: contain; */
@@ -534,24 +541,43 @@ span{
     .hamburger-menu{
         display: inline;
     }
+   
     .banner-section{
-       
-        width: 100%;
-        /* margin: 0 auto; */
-    }
-    .banner-section{
-    /* width: 100%; */
+        width: 50%;
+    min-height: 100vh;
+    width: 100%;
     
    
-    background-position: center;
+    background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    /* .about-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     }
+    .banner-container{
+     padding: 60px 16px;
+    }
+    .banner-img{
+        padding: 0;
+    }
+    .outer-image{
+        max-width: 220px;
+        height: 220px;
+
+    }
+    .inner-image{
+        width: 70px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        animation: none;
+    }
+    .tool{
+        position: static;
+        margin: 0 auto 6px;
+        display: block;
+
+    }
+    }
+    
     .about-content p{
         line-height: auto;
     }
