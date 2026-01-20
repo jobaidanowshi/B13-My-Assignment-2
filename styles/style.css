@@ -398,6 +398,68 @@ span{
     border-radius: 50%;
     
 }
+/* Meet The Host Section Styles */
+.host-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+}
+.host-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.host-heading h1{
+    color: #FFFFFF;
+    font-size: 4.3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.host-content{
+    display: flex;
+    width: 120rem;
+    /* justify-content: space-around; */
+    padding: 40px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 40px;
+    background-color: #351165bc;
+    margin-bottom: 100px;
+}
+.host-description h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.host-description p{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.host-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.host-icon img{
+    max-width: 16px;
+}
+.host-icon a{
+    border: 0.5px solid #a273df;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.host-icon a:hover{
+    box-shadow: 0 3px 27px 0 #00ff8881;
+}
 
  
 
