@@ -512,9 +512,7 @@ span{
 
 
 
-.hide{
-    display: none; 
-}
+
 
 
 
@@ -551,76 +549,5 @@ span{
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    }
-    .banner-container{
-     padding: 60px 16px;
-    }
-    .banner-img{
-        padding: 0;
-    }
-    .outer-image{
-        max-width: 220px;
-        height: 220px;
-
-    }
-    .inner-image{
-        width: 70px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        animation: none;
-    }
-    .tool{
-        position: static;
-        margin: 0 auto 6px;
-        display: block;
-
-    }
-    }
-    
-    .about-content p{
-        line-height: auto;
-    }
-    .about-card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 80px;
-    /* margin-bottom: 120px; */
-}
-.choose-content h1{
-   padding-left: 2px;
-   padding-right: 2px;
-    /* display: flex;
-    align-items: center; */
-    text-align: center;
-}
-.choose-card {
-    /* display: grid; */
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: repeat(0);
-    gap: 20px;
-    align-items: center;
-}
-.box1{
-    grid-row: span 0;
-}
-
-.box1, .box2, .box3, .box4, .box5{
-    padding: 20px;
-    max-width: 400px;
-    max-height: 287px;
-}
-
-.featured-card{
-    flex-direction: column;
-}
-
-  .feature-image{
-    /* position: absolute; */
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }  
+   
 }
