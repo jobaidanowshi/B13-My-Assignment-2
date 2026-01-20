@@ -622,13 +622,18 @@ span{
     
 }
 .feature-box{
- max-width: 350px;
+ max-width: 320px;
  align-items: center;
  
  
 }
+.outside-image{
+    position: absolute;
+    left: 120px;
+    top: 80px;
+}
 .feature{
-    width: 350px;
+    width: 320px;
 }
 .host-heading h1{
     
@@ -640,7 +645,7 @@ span{
 .host-content{
     display: flex;
     flex-direction: column;
-    max-width: 340px;
+    max-width: 300px;
 }
 .host-description{
     display: flex;
