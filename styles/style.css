@@ -460,6 +460,48 @@ span{
 .host-icon a:hover{
     box-shadow: 0 3px 27px 0 #00ff8881;
 }
+/* Footer Styles */
+.footer-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-container{
+    max-width:  1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer-logo{
+    max-width: 100%;
+    width: ;
+    margin-bottom: 30px;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.footer-icon>p{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    font-weight: 200;
+    margin-right: 15px;
+}
+.copyright{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #FFFFFF;
+}
 
  
 
