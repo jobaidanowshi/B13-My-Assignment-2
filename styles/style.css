@@ -656,7 +656,7 @@ span{
 .footer-icon{
     max-width: 260px;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     flex-wrap: wrap;
 }
 
